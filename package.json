@@ -1,0 +1,28 @@
+{
+    "name": "instagram-tag-downloader",
+    "version": "1.0.0",
+    "description": "A weekend project with node.js to download photos and their information from an instragram tag.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ztancankiri/instagram-tag-downloader.git"
+    },
+    "author": "Zafer Tan Cankiri",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ztancankiri/instagram-tag-downloader/issues"
+    },
+    "homepage": "https://github.com/ztancankiri/instagram-tag-downloader#readme",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "crypto": "^1.0.1",
+        "fs": "0.0.1-security",
+        "nodemon": "^1.19.0",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4"
+    }
+}
